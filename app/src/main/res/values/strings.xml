@@ -1,0 +1,95 @@
+<resources>
+
+
+    <string name="app_name">Droid Cafe</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_dessert_recipe_fragment">Hello Dessert Recipe Fragment</string>
+    <string name="hello_pastries_recipe_fragment">Hello Pastries Recipe Fragment</string>
+    <string name="hello_stores_fragment">Hello Stores Fragment</string>
+    <string name="tab_label_1">Desserts</string>
+    <string name="tab_label_2">Pastries</string>
+    <string name="tab_label_3">Stores</string>
+    <string name="dessert_recipes">Dessert Recipes</string>
+    <string name="browse_recipes">Browse Recipes</string>
+
+    <string name="recipe_title">Recipe Title</string>
+    <string name="preparation_cook_time_2hrs">Preparation and Cook Time: 2hrs</string>
+    <string name="recipe_short_description">Recipe short description</string>
+    <string name="how_to_prepare_donuts">How To Prepare Donuts</string>
+    <string name="droid_cafe_stores">Droid Cafe Stores</string>
+    <string name="store_name">Store Name</string>
+    <string name="open_daily_from_7_00_am">Open Daily from 7:00 AM</string>
+    <string name="share">Share</string>
+    <string name="comment">Comment</string>
+
+
+
+    <!--  Dessert images array-->
+    <array name="desserts_images">
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/icecream</item>
+    </array>
+    <!--    Store images array-->
+    <array name="store_images">
+        <item>@drawable/pizzainn</item>
+        <item>@drawable/burgerking</item>
+        <item>@drawable/kfc</item>
+    </array>
+    <!--    Pastry images array-->
+    <array name="pastry_images">
+        <item>@drawable/cookies</item>
+        <item>@drawable/darkchoco</item>
+        <item>@drawable/orangealmondcake</item>
+    </array>
+
+    <!--    Arrays for dessert objects-->
+    <string name="like">Like</string>
+    <string name="store_image">Store Image</string>
+    <string name="store_description">Store description</string>
+    <string name="not_rated">Not Rated</string>
+    <string name="discover_various_tastes_of_pizza">Discover various tastes of pizza</string>
+    <string name="pastries">Pastries</string>
+    <string name="browse_pastries">Browse Pastries</string>
+
+    <string-array name="dessert_title">
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice Cream</item>
+
+    </string-array>
+
+    <string-array name="dessert_description">
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Froyo is a premium self-serve frozen yogurt</item>
+        <item>Ice cream sandwiches have chocolate and vanilla filling</item>
+    </string-array>
+
+    <string-array name="pastry_description">
+        <item>Crispy fresh cookies</item>
+        <item>Let us go choco cake!!</item>
+        <item>Orange cake as you name Almond!!</item>
+    </string-array>
+
+    <string-array name="pastry_title">
+        <item>Cookies</item>
+        <item>Chocolate Cake</item>
+        <item>Orange Almond Cake</item>
+
+    </string-array>
+    <!--Array for the Store Fragment-->
+
+    <string-array name="store_title">
+        <item>Pizza Inn</item>
+        <item>Burger King</item>
+        <item>KFC</item>
+    </string-array>
+
+    <string-array name="store_description">
+        <item>Discover various tastes of pizza</item>
+        <item>World Class burgers on the spot</item>
+        <item>Tasty chicken from one of the world best!!</item>
+    </string-array>
+<string name="openNavDrawer">Nav Drawer Open</string>
+<string name="closeNavDrawer">Nav Drawer Close</string>
+</resources>

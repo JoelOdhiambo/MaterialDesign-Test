@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonutActivity">
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pizza_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/pizza_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:background="@color/css_gray"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:id="@+id/pizza_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/pizza_image"
+                android:layout_marginTop="4dp"
+                android:padding="10dp"
+                android:text="Pizza Inn"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#ffff00"
+                android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+            <TextView
+                android:id="@+id/donut_prep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pizza_title"
+                android:layout_marginTop="4dp"
+                android:drawableStart="@drawable/ic_baseline_restaurant_24"
+                android:padding="10dp"
+                android:text="Open Daily from 7:00 AM"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="?android:textColorSecondary"
+                android:theme="@style/ThemeOverlay.AppCompat.Light" />
+            <!--Add a horizontal line-->
+            <TextView
+                android:id="@+id/pizza_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/donut_divider"
+                android:layout_marginTop="3dp"
+                android:padding="8dp"
+                android:text="@string/discover_various_tastes_of_pizza"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/navy_blue"
+                android:textStyle="italic"
+                android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+            <View
+                android:id="@+id/donut_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/donut_prep"
+                android:background="@color/css_gray" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pizza_cardview">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizza Inn Menu"
+            android:textStyle="italic"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/navy_blue"/>
+
+    </RelativeLayout>
+</RelativeLayout>

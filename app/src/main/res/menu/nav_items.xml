@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--
+                Add menu items here
+                Menu items with icon and Title
+        -->
+        <item
+            android:id="@+id/first"
+            android:icon="@drawable/baseline_local_fire_department_black_18dp"
+            android:title="Desserts" />
+        <item
+            android:id="@+id/second"
+            android:icon="@drawable/baseline_local_dining_black_18dp"
+            android:title="Pastries" />
+        <item
+            android:id="@+id/third"
+            android:icon="@drawable/baseline_store_mall_directory_black_18dp"
+            android:title="Stores" />
+        <item android:title="">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:icon="@drawable/ic_baseline_contact"
+                        android:title="Contact Us"
+                        />
+                    <item
+                        android:icon="@drawable/ic_baseline_info_24"
+                        android:title="About Us" />
+                    <item
+                        android:icon="@drawable/ic_baseline_share_24"
+                        android:title="Share App" />
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>
